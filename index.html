@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title> Formulario </Title>
+       </head>
+    <body >
+
+        <h2 align="center" > Viagem espacial! </h2>
+
+        <table align="center">
+            <tr><td>
+
+        <fieldset>
+
+            <legend> Dados do candidato </legend>
+            <form action="" method="post">
+            <table>
+             <tr>
+             <tr>
+                 
+                    <tr>
+                        <td><label> Nome: </label></td>
+                        <td>
+                            <input type="text" id="Nome" nome="name"
+                            size="30" maxlength="20" placeholder="Digite seu nome completo" required/>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label> E-mail: </label></td>
+                        <td>
+                            <input type="email" id="mail" name="mail"
+                            size="30" maxlength="" placeholder="Digite seu email" required/>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label> CPF: </label></td>
+                        <td>
+                            <input type="number" id="m_cpf" name="cpf"
+                            maxlength="11" placeholder="Digite apenas os números" required>
+                        </td>
+                    </tr>
+                 
+                     <tr>
+                         <td><label> Telefone: </label></td>
+                                             <td>
+                                                 <input type="number" id="TELEFONE" name="TELEFONE"
+                                                 maxlength="11" placeholder="Com DDD" required>
+                                             </td>
+                     </tr>
+                 
+                    <tr>
+                        <td><label> Data de nascimento: </label></td>
+                        <td>
+                            <input type="date" id="data_nascimento" name="data_nascimento"
+                            max="2006-01-01" required/>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <tr><td><label> Sexo:</label></td></tr>
+                   
+
+                        <td>
+                            <tr>
+                                <td>
+                                    <input type="radio" id="sexo" name="sexo" value="Masculino" required/>
+                                    <label> Masculino </label>
+                            </tr>
+                            </td>
+                        </td>
+                
+                        <tr>
+                            <td>
+                                <input type="radio" id="sexo" name="sexo" value="Feminino" required/>
+                                <label> Feminino </label>
+                            </td>
+                        </tr>
+                    </tr>
+             </tr>
+             </tr>
+            </table>
+
+
+        <td></tr>
+        </table>
+    </fieldset>
+
+        <table  align="center">
+            <tr><td>
+
+                <fieldset>
+
+                    <legend> Entrevista </legend>
+
+            <table>
+                <tr><td><label> Experiencias anteriores no espaço: </label></td></tr>
+                
+                <tr>
+                    <td>
+                        <textarea cols="50" rows="5" id="coment" name="coment"
+                        maxlength="240"></textarea>
+                    </td>
+                </tr>
+                       
+                <tr>
+                    <tr><td><label> Motivação: </label></td></tr>
+                    
+                    <td>
+                        <textarea cols="50" rows="5" id="coment" name="coment"
+                        maxlength="240"  placeholder="Explique por que você deseja participar da expedição espacial."></textarea>
+                    </td>
+                </tr>
+<tr>
+    
+                    <tr><td><label> Habilidades especificas: </label></td></tr>
+                         
+                    <td>
+                        <input type="checkbox" id="piloto" name="piloto"
+                        value="piloto"/>
+                        <label> Piloto </label>
+                    </td>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="Cientista" name="Cientista"
+                            value="Cientista"/>
+                            <label> Cientista </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="Engenheiro" name="Engenheiro"
+                            value="Engenheiro"/>
+                            <label> Engenheiro </label>
+                        </td>
+                    </tr>
+                   <tr>
+                       
+                       <td>
+                           <input type="checkbox" id="Outro" name="Outro"
+                           value="Outro"/>
+                           <label> Outro. Qual? </label>
+                           <textarea cols="5" rows="1" id="coment" name="coment"
+                           maxlength="240"  placeholder=""></textarea>
+                       </td>
+                   </tr>
+</tr>
+
+                <tr>
+                    <tr><td><label> Documento (RG + Foto 3/4) </label></td></tr>
+                    <td><input type="file" id="foto" name="foto" required/></td>
+                </tr>
+
+                <tr>
+                    <tr><td><label> Outro ponto: </label></td></tr>
+                
+                    <td>
+                        <textarea cols="50" rows="" id="coment" name="coment"
+                        maxlength="240" requiresd></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label> Cor do traje </label>
+                        <input type="color" id="cortraje" name="cortraje">
+                    </td>
+                </tr>
+
+                <tr><td><input type="submit" id="enviar" name="enviar" value="Enviar dados"/></td>
+                    <tr><td><input type="reset" id="limpar" name="limpar" value="Limpar"/></td></tr>
+</TR>
+
+                <label> Escolha a missão: </label>
+                <select id="missão" name="missão" 
+                <option value="N/">  </option> selected>
+                    <Option value="M1"> Viagem a lua</Option> 
+                    <Option value="M2"> Viagem a marte</Option> 
+                    <Option value="M2"> Viagem a venus</Option> 
+                    <Option value="M2"> Viagem ao SOL</Option> 
+                </option>
+               
+               
+                                </table>
+                </tr>
+        </fieldset>
+    </td></tr></table>
+        </form>
+    </body>
+</table>
+
+
+</html>
+ 
